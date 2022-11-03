@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://kit.fontawesome.com/c05f81506b.js" crossorigin="anonymous"></script>
+	<meta charset="utf-8">
+	<title>Access</title>
+</head>
+<body>
+
+	<ul>
+		<li><a href="#home"><i class="fa-solid fa-table"></i></a></li>
+		<li><a href="#about"><i class="fa-solid fa-table"></i></a></li>
+		<li><a href="#portfolio"><i class="fa-solid fa-table"></i></a></li>
+		<li><a href="#services"><i class="fa-solid fa-table"></i></a></li>
+		<li><a href="#contact"><i class="fa-solid fa-table"></i></a></li>
+	</ul>
+
+	<div id="wrapper">
+		<div id="home">
+			<img src="table.png">
+			<section class="text-content">
+				<h1>home</h1>
+				<p>The noun novel describes a book-length work of fiction. New and novel come from the same Indo-European root but by different paths. Whereas new is a Germanic word coming from Old English, novel is based on Latin novellus "new, young, fresh." If something is novel, it is new but also original, fresh and unique.</p>
+			</section>
+		</div>
+		<div id="about">
+			<section class="text-content">
+				<h1>about</h1>
+				<p>The noun novel describes a book-length work of fiction. New and novel come from the same Indo-European root but by different paths. Whereas new is a Germanic word coming from Old English, novel is based on Latin novellus "new, young, fresh." If something is novel, it is new but also original, fresh and unique.</p>
+			</section>
+		</div>
+		<div id="portfolio">
+			<section class="text-content">
+				<h1>portfolio</h1>
+				<p>The noun novel describes a book-length work of fiction. New and novel come from the same Indo-European root but by different paths. Whereas new is a Germanic word coming from Old English, novel is based on Latin novellus "new, young, fresh." If something is novel, it is new but also original, fresh and unique.</p>
+			</section>
+		</div>
+		<div id="services">
+			<section class="text-content">
+				<h1>services</h1>
+				<p>The noun novel describes a book-length work of fiction. New and novel come from the same Indo-European root but by different paths. Whereas new is a Germanic word coming from Old English, novel is based on Latin novellus "new, young, fresh." If something is novel, it is new but also original, fresh and unique.</p>
+			</section>
+		</div>
+		<div id="contact">
+			<section class="text-content">
+				<h1>contact</h1>
+				<p>The noun novel describes a book-length work of fiction. New and novel come from the same Indo-European root but by different paths. Whereas new is a Germanic word coming from Old English, novel is based on Latin novellus "new, young, fresh." If something is novel, it is new but also original, fresh and unique.</p>
+			</section>
+		</div>
+	</div>
+</body>
+
+
+<style type="text/css">
+	@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
+::-webkit-scrollbar {
+    width: 0px;
+}
+#wrapper {
+	width: 100%;
+	height: 100vh;
+	scroll-behavior: smooth;
+	overflow-y: scroll;
+}
+#wrapper div{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.text-content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 100%;
+	text-align: center;
+	padding: 0 150px;
+}
+.text-content h1{
+	font-size: 100px;
+	font-weight: bold;
+	/color: #fff;
+	font-family: merienda;
+	letter-spacing: 5px;
+}
+.text-content p{
+	font-family: merienda;
+	line-height: 35px;
+	/color: #fff;
+}
+ul{
+	position: fixed;
+	top: 10%;
+	right: 15px;
+	transform: translateY(50%);
+	margin: 0;
+	padding: 0;
+	z-index: 1;
+}
+ul li{
+	list-style: none;
+}
+ul li a{
+	display: block;
+	text-decoration: none;
+	height: 45px;
+	font-size: 24px;
+	background: #fff;
+	width: 55px;
+	color: #262626;
+	margin: 4px 0;
+	padding-left: 15px;
+	line-height: 45px;
+}
+ul li a:hover{
+	background: #333;
+	text-decoration: none;
+	color: #fff;
+}
+#home {
+	background-image: url(tabl.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+#about {
+	background-color: goldenrod;
+}
+#portfolio {
+	background-color: deepskyblue;
+}
+#services {
+	background-color: brown;
+}
+#contact {
+	background-color: royalblue;
+}
+img{
+	position: relative;
+	z-index: -1;
+	width: 600px;
+	height: 500px;
+	transform: translate(10px,100px);
+}
+</style>
+</html>
