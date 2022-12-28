@@ -11,9 +11,9 @@
     <ul>
         <li><a href="#Microsoftaccess"><i class="fa-solid fa-a"></i></a></li>
         <li><a href="#table"><i class="fa-solid fa-t"></i></a></li>
-        <li><a href="#query"><i class="fa-solid fa-q"></i></a></li>
-        <li><a href="#services"><i class="fa-solid fa-question"></i></a></li>
-        <li><a href="#contact"><i class="fa-solid fa-question"></i></a></li>
+        <li><a href="#Query"><i class="fa-solid fa-q"></i></a></li>
+        <li><a href="#Form"><i class="fa-solid fa-f"></i></a></li>
+        <li><a href="#Report"><i class="fa-sharp fa-solid fa-r"></i></a></li>
     </ul>
 
     <div id="wrapper">
@@ -21,7 +21,7 @@
             <img src="table.png">
             <section class="text-content">
                 <h1>مایکرۆسۆفت ئەکسس<br>(Microsoft Access)</h1>
-                <p>.بەرهەمێ کومپانیا (مایکرۆسۆفت) ە، تایبەتە ب ئەنجامدانا کارێن (ژمێریاری ، ئامار ، کارگێری) ڤە</p>
+                <p>.بەرهەمێ کومپانیا (مایکرۆسۆفت) ە، تایبەتە ب ئەنجامدانا کارێن (ژمێریار ، ئامار ، کارگێری) ڤە</p>
             </section>
         </div>
         <div id="table">
@@ -30,27 +30,27 @@
                 <p lang="ar" dir="rtl">بەشێ سەرەکیێ پروگرامێ<b> ئەکسسی</b> یە، تایبەتە ب دروستکرنا خشتەیان  و تومارکرنا زانیارییان تیدا، ب نە بوونا خشتەیان دشیاندا نینە هیچ کارەکێ د پروگرامیدا ئەنجامبدەین</p>
             </section>
         </div>
-        <div id="query">
+        <div id="Query">
             <section class="text-content">
                 <h1>(Query) پرسگەھ</h1>
                 <p lang="ar" dir="rtl">بەشێ دووێ یێ داتابەیسی یە، بێی خشتەی(Table)  دشیاندا نینە پرسگەھ(Query) بهێتە ئامادەکرن و دناڤ پرسگەھێدا دشیاندا یە کومەکا کرداران ئەنجامبدەین و مەرجان بۆ دانین.
-                <br>View&nbsp;•
-                <br>Sort&nbsp;•
-                <br>Filter&nbsp;•
-                <br>Analyzing&nbsp;•
+                <br>View&nbsp;	•
+                <br>Sort&nbsp;	•
+                <br>Filter&nbsp;  •
+                <br>Analyzing&nbsp;	•
                 </p>
             </section>
         </div>
-        <div id="services">
+        <div id="Form">
             <section class="text-content">
-                <h1>services</h1>
-                <p lang="ar" dir="rtl">The noun novel describes a book-length work of fiction. New and novel come from the same Indo-European root but by different paths. Whereas new is a Germanic word coming from Old English, novel is based on Latin novellus "new, young, fresh." If something is novel, it is new but also original, fresh and unique.</p>
+                <h1>Form</h1>
+                <p lang="ar" dir="rtl">ڕووکارەکێ داتابەیسی یە، ب رێیا خشتەی(Table) و پرسگە‌هێ(Query) دشیاندایە فۆرمێ دروست بکەین و گوهۆرینان د فۆرمیدا ئەنجامبدەین و هەروەسا د ڕێیا فۆرمیدا زانیاریێن نوی تۆماربکەین و گوهۆرینان دناڤ داتایێن کەڤن دناڤ داتابەیسی ئەنجامبدەین. </p>
                  </section>
         </div>
-        <div id="contact">
+        <div id="Report">
             <section class="text-content">
-                <h1>contact</h1>
-                <p lang="ar" dir="rtl">The noun novel describes a book-length work of fiction. New and novel come from the same Indo-European root but by different paths. Whereas new is a Germanic word coming from Old English, novel is based on Latin novellus "new, young, fresh." If something is novel, it is new but also original, fresh and unique.</p>
+                <h1>Repot</h1>
+                <p lang="ar" dir="rtl">ژ رووکارەکێ پێکدهێت، دشیاندا یە زانیاریێن (Table , Query) بەرچاڤ بکەت و چاپ بکەت</p>
             </section>
         </div>
     </div>
@@ -58,7 +58,7 @@
 
 
 <style type="text/css">
-    @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@500&display=swap');
 ::-webkit-scrollbar {
     width: 0px;
 }
@@ -97,24 +97,26 @@
 }
 ul{
     position: fixed;
-    transform: translate(50%, -5%);
-    right: 26px;
-    padding: 5px;
-    background: white;
+    transform: translate(50%,-20%);
+    margin: 0;
+    padding: 6px;
+background: white;
     z-index: 10;
 }
 ul li{
     list-style: none;
+    display: inline;
+
 }
 ul li a{
     text-decoration: none;
     height: 45px;
-    font-size: 28px;
+    font-size: 24px;
     background: #fff;
     width: 55px;
     color: #262626;
     margin: 4px 0;
-    padding: 6px;
+    padding: 9px;
     line-height: 45px;
 }
 ul li a:hover{
@@ -131,13 +133,13 @@ ul li a:hover{
 #table {
     background-color: goldenrod;
 }
-#query {
+#Query {
     background-color: deepskyblue;
 }
-#services {
+#Form {
     background-color: brown;
 }
-#contact {
+#Report {
     background-color: royalblue;
 }
 img{
